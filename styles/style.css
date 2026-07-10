@@ -1,0 +1,61 @@
+/* google fonts arimo*/
+.arimo {
+  font-family: "Arimo", sans-serif;
+}
+/* google fonts inter*/
+.inter {
+  font-family: "Inter", sans-serif;
+}
+/* Primary Button */
+.btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #1d4ed8;
+  border-radius: 10px;
+  border-style: none;
+  padding: 12px 40px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+/* NavBar Section */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 23px auto;
+  width: 1320px;
+  height: 50px;
+}
+.nav-1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-1-text > h2 {
+  color: #0d1b2a;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-2 {
+  width: 363px;
+}
+.nav-2 > ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-2 > ul > li {
+  list-style: none;
+}
+.nav-2 > ul > li > a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #575757;
+}
+.nav-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
