@@ -157,3 +157,88 @@
   color: #575757;
 }
 /* Secure Your Spot Section */
+.spot-container {
+  max-width: 1440px;
+  margin: 150px auto;
+}
+.spot-container > h2 {
+  text-align: center;
+  color: #0d1b2a;
+  font-size: 48px;
+  font-weight: bold;
+}
+.spot-container > p {
+  text-align: center;
+  color: #575757;
+  font-size: 16px;
+  padding-top: 12px;
+}
+.spot-card-container {
+  padding-top: 48px;
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.spot-card {
+  width: 370px;
+  border: 1px solid #e5e7eb;
+  background-color: #e5e7eb26;
+  border-radius: 12px;
+}
+.divider {
+  border: none;
+  height: 2px;
+  background-color: #e5e7eb;
+  width: 260px;
+  margin: 40px auto;
+}
+.spot-card > div > ul > li {
+  padding-top: 10px;
+  /* list-style: none; */
+  color: #2563eb;
+}
+.spot-card > div > ul > li > a {
+  text-decoration: none;
+  color: #333333;
+}
+.sahaf {
+  padding-left: 32px;
+}
+.spot-btn {
+  margin: 32px;
+  color: #2563eb;
+}
+.spot-btn > button {
+  width: 304px;
+  padding: 13px 100px;
+  border-radius: 12px;
+  border-color: #2563eb;
+  color: #2563eb;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#card-2 {
+  background-color: #0d1b2a;
+}
+#card-2-list > li > a {
+  color: #ffffff;
+}
+#btn-2 > button {
+  background-color: #2563eb;
+  border: none;
+  color: #ffffff;
+}
+#btn-2 > button:hover {
+  background-color: #ffffff;
+  border: none;
+  color: #2563eb;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#divider2 {
+  background-color: #ffffff22;
+}
+/* Ai part */
