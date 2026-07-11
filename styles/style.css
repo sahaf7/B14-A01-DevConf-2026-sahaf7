@@ -242,3 +242,30 @@
   background-color: #ffffff22;
 }
 /* Ai part */
+
+/* Footer */
+footer {
+  background-color: #0d1b2a;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 145px;
+  width: 1320px;
+  margin: 0 auto;
+}
+.footer-font {
+  color: #ffffff66;
+  font-size: 16px;
+}
+.flex {
+  display: flex;
+}
+.gap{
+  gap: 24px;
+}
+.footer-left{
+  align-items: center;
+  gap: 20px;
+}
