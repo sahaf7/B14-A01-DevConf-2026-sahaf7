@@ -242,6 +242,77 @@
   background-color: #ffffff22;
 }
 /* Ai part */
+/* Hackathon Section */
+
+.hackathon-container {
+  width: 100%;
+  padding: 100px 0;
+  margin-top: 80px;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
+.hackathon-content {
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+}
+
+.hackathon-tag {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hackathon-content h2 {
+  color: white;
+  font-size: 56px;
+  margin-top: 20px;
+}
+
+.hackathon-content p {
+  width: 760px;
+  margin: 24px auto 50px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.hackathon-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.hack-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.hack-card h3 {
+  color: #60a5fa;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hack-card p,
+.hackathon-btn {
+  width: auto;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.hackathon-content .btn {
+  padding: 18px 40px;
+  font-size: 20px;
+}
 
 /* Footer */
 footer {
@@ -262,10 +333,10 @@ footer {
 .flex {
   display: flex;
 }
-.gap{
+.gap {
   gap: 24px;
 }
-.footer-left{
+.footer-left {
   align-items: center;
   gap: 20px;
 }
